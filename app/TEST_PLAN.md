@@ -58,3 +58,19 @@ Steps to reproduce:
 Expected behavior: The component message should closet
 
 Actual result: The click on close button didn't works and the component is shown
+
+
+
+1. What would you automate first and why?
+I prioritize the high risk features because e2e automation is a expensive process 
+2. 
+2. How would you run these tests in CI using GitHub Actions?
+I will organization the github actions in this steps:
+- Install all dependencies
+- Build application
+- Run device
+- install all dependeciesof automation
+- run automation
+- save the report of automation in file
+- broken merge if some test fail
+
